@@ -27,6 +27,7 @@ __Skip to step 3 if you already have a Java Project in Eclipse__
 18. Right Click your Package and then Click __New > Class__
 19. Set the Name to your Plugin Name in [Pascal Case](https://techterms.com/definition/pascalcase)
 20. Change your Class to look like this:
+
 ```
 package _Your Package Name_;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -35,9 +36,11 @@ public class _Your Class Name_ extends JavaPlugin {
 
 }
 ```
+
 21. Right Click on __src__ in entry in your Project Explorer
 22. Click __New > File__ and set the Name to [plugin.yml](https://bukkit.fandom.com/wiki/Plugin_YAML)
 23. Change you plugin.yml to look something like this:
+
 ```
 name: _Your Plugin Name_
 version: _Your Plugin Version_
